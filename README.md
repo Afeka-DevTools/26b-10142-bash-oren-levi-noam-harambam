@@ -1,8 +1,8 @@
 <div dir="rtl">
 
-## קורס כלי פיתוח - מטלה 1 (Bash, Git, GitHub)
+## Dev Tools Course - Bash Project
 
-### מגישים + סקריפטים
+### Team Members & Scripts
 
 </div>
 
@@ -23,7 +23,7 @@
 <br />
 
 ### נועם הרמבם -
-| # | תיאור סקריפט | קובץ |
+| # | תיאור תיאור סקריפט | קובץ |
 |---|---|---|
 | 1 | גיבוי תכולה של תיקייה לקובץ tar.gz | [`backup_to_tar.sh`](scripts/backup_to_tar.sh) |
 | 2 | ספירת שורות, מילים, ותווים בכל קובץ בתיקיה והדפסתם | [`count_data_in_files.sh`](scripts/count_data_in_files.sh) |
@@ -34,3 +34,4 @@
 </div>
 
 ---
+
