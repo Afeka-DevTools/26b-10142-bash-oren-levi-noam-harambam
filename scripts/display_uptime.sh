@@ -1,8 +1,5 @@
 #!/bin/bash
 
-get_uptime(){
-       	uptime -p
-}
+uptime=$(uptime -p)
 
-result=$(get_uptime)
-echo "$result"
+echo "System Uptime - $uptime"

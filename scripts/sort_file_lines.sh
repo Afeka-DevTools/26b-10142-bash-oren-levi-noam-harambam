@@ -1,13 +1,16 @@
 #!/bin/bash
 
-sort_lines(){
-	file=$1
-	if [ -e "$file" ]; then 
-		sort -o $file $file
-		echo "File successfully sorted"
-	else
-		echo "File doesnt exist"
-	fi
-} 
-result=$(sort_lines $1)
-echo $result 
+file=$1
+
+if [ -z "$file" ]; then
+  echo "No file specified! Please enter file path as argument"
+  exit 1
+fi
+
+if [ ! -e "$file" ]; then
+	echo "File doesn't exist!"
+	exit 1
+fi
+
+sort -o "$file"
+echo "File successfully sorted!"

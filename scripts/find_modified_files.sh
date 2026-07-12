@@ -1,8 +1,21 @@
 #!/bin/bash
 
-find_recent(){
-	local days=$1
-	find . -type f -mtime -"${days}"
-}
+directory=$1
+days=$2
 
-find_recent $1
+if [ -z "$directory" ]; then
+  echo "No directory specified! Please pass directory path as argument"
+  exit 1
+fi
+
+if [ -z "$days" ]; then
+  echo "Amount of days not specified! Please pass amount of days as argument"
+  exit 1
+fi
+
+if [ "$days" -le 0 ]; then
+	echo "Please enter positive amout of days!"
+	exit 1
+fi
+
+find "$directory" -type f -mtime -"$days"
