@@ -15,4 +15,5 @@ fi
 echo "Creating backup for directory \"$directory\""
 file_name="backup.tar.gz"
 tar_file=$(tar -czf "$file_name" "$directory")
-echo "Backup file '"$file_name"' was created successfully!"
+
+echo "Backup file '"$file_name"' was created successfully"

@@ -12,5 +12,7 @@ if [ ! -e "$file" ]; then
 	exit 1
 fi
 
-sort -o "$file"
-echo "File successfully sorted!"
+sort -o "$file" "$file"
+
+file_name=$(basename "$file")
+echo "File $file_name sorted successfully"

@@ -18,4 +18,8 @@ if [ "$days" -le 0 ]; then
 	exit 1
 fi
 
+if [ $(find "$directory" -type f -mtime -"$days" | wc -l) -eq 0 ]; then
+  echo "No files were modified in the last $days days"
+fi
+
 find "$directory" -type f -mtime -"$days"
