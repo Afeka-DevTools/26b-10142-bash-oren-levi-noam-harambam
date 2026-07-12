@@ -1,14 +1,8 @@
-<div dir="rtl">
+## Dev Tools Course - Bash Project
 
-## קורס כלי פיתוח - מטלה 1 (Bash, Git, GitHub)
-
-### מגישים + סקריפטים
-
-</div>
+### Team Members & Scripts
 
 ---
-
-<div dir="rtl">
 
 ### אורן לוי
   
@@ -22,8 +16,10 @@
 
 <br />
 
+<br />
+
 ### נועם הרמבם -
-| # | תיאור סקריפט | קובץ |
+| # | תיאור תיאור סקריפט | קובץ |
 |---|---|---|
 | 1 | גיבוי תכולה של תיקייה לקובץ tar.gz | [`backup_to_tar.sh`](scripts/backup_to_tar.sh) |
 | 2 | ספירת שורות, מילים, ותווים בכל קובץ בתיקיה והדפסתם | [`count_data_in_files.sh`](scripts/count_data_in_files.sh) |
@@ -32,5 +28,7 @@
 | 5 | מיון שורות בקובץ לפי סדר אלפביתי | [`sort_file_lines.sh`](scripts/sort_file_lines.sh) |
 
 </div>
+</div>
 
 ---
+
