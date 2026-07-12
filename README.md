@@ -8,7 +8,7 @@
 
 ---
 
-<div dir="rtl">
+<div dir="ltr">
 
 ### אורן לוי
   
