@@ -19,6 +19,8 @@
 | 4 | [`current_user_info.sh`](scripts/current_user_info.sh) | מידע על המשתמש הנוכחי – שם, תיקיה ראשית, קבוצות, ו - Shell מוגדר |
 | 5 | [`count_files_by_suffix.sh`](scripts/count_files_by_suffix.sh) | ספירת קבצים לפי סיומת |
 
+<br />
+
 ### נועם הרמבם -
 | # | קובץ | תיאור סקריפט |
 |---|---|---|
@@ -31,3 +33,4 @@
 </div>
 
 ---
+
