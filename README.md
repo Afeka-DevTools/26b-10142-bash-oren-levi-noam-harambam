@@ -1,8 +1,8 @@
 <div dir="rtl">
 
-## Dev Tools Course - Bash Project
+## כלי פיתוח - מטלה 1 (Bash, Git, GitHub)
 
-### Team Members & Scripts
+### מגישים + סקריפטים
 
 </div>
 
